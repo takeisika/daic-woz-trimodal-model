@@ -6,7 +6,7 @@ torch==2.2.2
 torchaudio==2.2.2
 torchvision==0.17.2
 transformers>=4.41
-sentencepiec
+sentencepiece
 tokenizers>=0.19.0
 
 # Signal processing & audio slicing
