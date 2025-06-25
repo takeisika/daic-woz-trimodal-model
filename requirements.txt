@@ -18,4 +18,4 @@ ipykernel
 jupyter
 tqdm
 
-# Tested with Python 3.10 on Google Colab (CUDA 12.1, Ubuntu 22.04).
+# Tested with Python 3.10 on Google Colab (CUDA 12.1).
