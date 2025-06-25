@@ -8,8 +8,8 @@ A reproducible pipeline for **depression‐risk screening** that fuses
 ## Repository contents
 | Path | Purpose |
 |------|---------|
-| `preprocessing.ipynb` | End‑to‑end notebook that downloads DAIC‑WOZ, extracts participant utterances, merges every 5 utterances with a one‑utterance overlap, and writes • audio WAV • video‑feature CSV pairs. |
-| `trimodal_model.ipynb` | Training & evaluation of the **tri‑modal fusion network**<br> (wav2vec 2.0 + Bi‑LSTM + cross‑attention + ModalityDropout + attentive pooling). |
+| `preprocessing.ipynb` | End‑to‑end notebook that downloads DAIC‑WOZ, extracts participant utterances, merges every 5 utterances with a one‑utterance overlap, and writes audio WAV and video-feature CSV pairs. |
+| `trimodal_model.ipynb` | Training & evaluation of the **tri‑modal fusion network**<br> (audio+vision+text). |
 | `huang2024_vocal_only_leakage_check.ipynb` | Replication of Huang *et al.* (2024) with and without speaker‑level data leakage; demonstrates the accuracy collapse from 96–100 % to ≈60 %. |
 | `requirements.txt` | Frozen Python dependencies tested on Google Colab (CUDA 12.1). |
 | `LICENSE` | MIT License (free academic & commercial use, no warranty). |
