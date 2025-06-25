@@ -19,3 +19,4 @@ jupyter
 tqdm
 
 # Tested with Python 3.10 on Google Colab (CUDA 12.1).
+# Reproducibility All random seeds are fixed at 103; the 6 : 2 : 2 split is regenerated on every run.
