@@ -4,7 +4,7 @@ A reproducible pipeline for depression detection that fuses speech acoustics (wa
 ## Repository contents
 | Path | Purpose |
 |------|---------|
-| `preprocessing.ipynb` | Downloads the DAIC-WOZ dataset, extracts participant utterances, merges every 5 utterances (no overlap), and writes pairs of audio WAV files and video-feature CSVs. |
+| `preprocessing.ipynb` | Downloads DAIC-WOZ, extracts participant utterances, merges every 5 utterances (no overlap), and writes pairs of audio WAV files and video-feature CSVs. |
 | `trimodal_model.ipynb` | Merges segments with 1-utterance overlap via sliding window, then trains & evaluates the tri-modal fusion network (audio + vision + text). |
 | `huang2024_vocal_only_leakage_check.ipynb` | Replicates Huang et al. (2024) with and without speaker‑level data leakage and demonstrates the accuracy collapse from 96–100% to ≈60%. |
 | `requirements.txt` | Lists dependencies. |
